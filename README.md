@@ -40,9 +40,9 @@ The app sends a single byte to the write characteristic to set the stimulation m
 
 | Byte value | Mode   |
 |-----------|--------|
-| `0x00`    | 5 Hz   |
-| `0x01`    | 10 Hz  |
-| `0x02`    | 20 Hz  |
+| `0x00`    | LOW   |
+| `0x01`    | MED  |
+| `0x02`    | HIGH  |
 | `0x03`    | OFF    |
 
 ---
